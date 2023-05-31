@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/Styles.css">
+    <script src="/js/Index.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">El Cafesito</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="img/menu.png" alt="menu" class="menu-icono"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Reservaciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" alt="" id="img-carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="header-content container">
+            <h1>Cafeteria mi gustito</h1>
+            <p> el mejor cafe de toda Guatemala a la vuelta de su casa</p>
+
+            <div class="botons">
+                <a href="#" class="btn-1">Mas Informacion</a>
+                <a href="#" class="btn-1">Menu</a>
+            </div>
+
+            <div class="socials-1">
+                <img src="img/s1.svg" alt="">
+                <img src="img/s2.svg" alt="">
+                <img src="img/s3.svg" alt="">
+            </div>
+
+            <a href="#lista">
+                <img class="arrow" src="img/arrow.svg" alt="">
+            </a>
+
+        </div>
+    </header>
+
+    <section class="recetas container">
+        <div class="recetas-1">
+            <h3>135 modos de disfrutar el cafe</h3>
+            <hr>
+            <p>Recetas</p>
+        </div>
+        <div class="recetas-2">
+            <h2>135 <br> recetas <br> de cafe</h2>
+        </div>
+    </section>
+
+    <section class="platillos container" id="lista">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Cafe americano</h3>
+                        <p class="precio">Q20</p>
+                        <img src="img/cafe americano.jpg" alt="">
+                        <p>El café americano, refiriéndose al café típico que se bebe en los Estados Unidos, es la mezcla de agua caliente y café procesado en una cafetera con filtro de café, ​​ sistema para hacer café inventado por la empresaria alemana Melitta Bentz</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="1">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Capuchino</h3>
+                        <p class="precio">Q30</p>
+                        <img src="img/capuchino.jpg" alt="">
+                        <p>El capuchino​ es una bebida nacida en Italia, preparada con café expreso y leche montada con vapor para darle cremosidad. Un capuchino se compone de 125 ml de leche y 25 ml de café expreso, en ocasiones se agrega cacao en polvo o canela según el gusto del consumidor.</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="2">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>expresso</h3>
+                        <p class="precio">Q15</p>
+                        <img src="img/expresso.jpg" alt="">
+                        <p>El café expreso es una forma de preparación de café originada en Italia.​ Debe su término a la obtención de esta bebida a través de una cafetera expreso.​ Se caracteriza por su rápida preparación a una alta presión y por un sabor y textura más concentrados</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="3">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>macchiato</h3>
+                        <p class="precio">Q30</p>
+                        <img src="img/mocchiato.jpeg" alt="">
+                        <p>El café manchado o caffè macchiato en italiano, también llamado espresso macchiato, es un café cortado típico de Italia, consiste en un expreso con una pequeña cantidad de leche caliente y espumada. En España se suele denominar café cortado.</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="4">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+            </div>
+        
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="recetas container">
+        <div class="recetas-2">
+            <h2>las <br> comidas <br> deliciosas </h2>
+        </div>
+        <div class="recetas-1">
+            <h3>comidas </h3>
+            <hr>
+            <p>wum wum </p>
+        </div>
+    </section>
+
+    <section class="platillos container" id="lista-2">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">galletas</h3>
+                        <p class="precio">Q10</p>
+                        <img src="img/galleta.jpeg" alt="">
+                        <p class="c2">La galleta es una preparación culinaria de pequeño tamaño, dulce o salada, horneada y hecha normalmente a base de harina de trigo, huevos, azúcar, mantequilla o aceites vegetales o grasas animales</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">pastel de chocolate</h3>
+                        <p class="precio">Q20 C/u</p>
+                        <img src="img/pastel.jpeg" alt="">
+                        <p class="c2">El pastel de chocolate, tarta de chocolate o torta de chocolate, es un postre conocido internacionalmente, que se popularizó a finales del siglo XIX y se sirve frecuentemente en reuniones, como fiestas de cumpleaños y bodas</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">sándwich</h3>
+                        <p class="precio">Q30-40</p>
+                        <img src="img/pan.jpeg" alt="">
+                        <p class="c2">El sándwich está hecho con pan de molde, mientras el bocadillo es una pieza de pan cortada que tiene en su interior carne, queso, etc</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Croissant</h3>
+                        <p class="precio">Q15</p>
+                        <img src="img/croissant.jpeg" alt="">
+                        <p class="c2">El cruasán es una pieza de panadería de origen francés. Fue creada en París en el siglo XIX donde los panaderos locales se inspiraron de la forma del kifli austriaco popularizado por el panadero vienés</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="recetas container">
+
+        <div class="recetas-1">
+            <hr>
+            <p>Contacto</p>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link">
+                <h3>Redes</h3>
+                <p> ubicada en el centro de chimaltenango casa no.3-A</p>
+                <div class="socials-2">
+                    <img src="img/s1.svg" alt="">
+                    <img src="img/s2.svg" alt="">
+                    <img src="img/s3.svg" alt="">
+                </div>
+            </div>
+            <div class="link">
+                <h3>el antojito</h3>
+                <ul>
+                    <li><a href="#">el antojito</a></li>
+                    <li><a href="#">el antojito</a></li>
+                    <li><a href="#">el antojito</a></li>
+                    <li><a href="#">el antojito</a></li>
+                    <li><a href="#">el antojito</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <form action="">
+                    <input type="text" placeholder="Nombre" class="inp">
+                    <input type="email" placeholder="Email" class="inp">
+                    <textarea class="inp"></textarea>
+                    <input type="submit" value="Enviar" class="btn-4">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/Index.js"></script>
+    <script src="/js/funciones.js"></script>
+</body>
+
+</html>
